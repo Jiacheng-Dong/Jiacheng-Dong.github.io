@@ -490,6 +490,100 @@ padding-top: 10px;
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
+/*----------------------
+--------about-----------
+------------------------*/
+#about {
+  padding: 100px 0;
+  background: #FFFFFF;
+  background: white;/*url('../images/img4.jpg');*/
+  background-size: cover;
+}
+#about .portfolio-filter {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px;
+  display: inline-block;
+}
+#about .portfolio-filter > li {
+  float: left;
+  display: block;
+}
+#about .portfolio-filter > li a {
+  display: block;
+  padding: 7px 15px;
+  margin:0px 2px;
+  color: #D7D7D7;
+  position: relative;
+  border-bottom: 2px solid transparent;
+  background: rgba(229, 229, 229, 0.29);
+}
+#about .portfolio-filter > li a:hover,
+#about .portfolio-filter > li a.active {
+  background: #F9690E;
+  color: #FFFFFF; 
+} 
+#about .portfolio-items {
+  margin: -15px;
+}
+#about .portfolio-item {
+  width: 24.9%;
+  float: left;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#about .portfolio-item .portfolio-item-inner {
+  position: relative;
+  border-bottom: 4px solid #F9690E;
+}
+#about .portfolio-item .portfolio-item-inner .portfolio-info {
+  opacity: 0;
+  transition: opacity 400ms;
+  -webkit-transition: opacity 400ms;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 18px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  height:100%;
+}
+#about .portfolio-item .portfolio-item-inner .portfolio-info h3 {
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+  color: #fff;
+}
+#about .portfolio-item .portfolio-item-inner .portfolio-info .preview { 
+  width: 60px;
+  height: 60px;
+  line-height: 36px;
+  text-align: center;
+  color: #F9690E;
+  display:block;
+  text-align: center;
+
+  margin: 45px auto;
+  font-size: 26px;
+  border: 0;
+  /* background: rgba(239, 239, 239, 1); */
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.53);
+}
+#about .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+}
+
+
+
+
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
 .isotope-item {
@@ -582,6 +676,7 @@ background: transparent;
 border: 1px solid rgba(255, 255, 255, 0.2);
 margin: 0 8px;
 }
+/*
 #about {
   padding: 100px 0;
   background: #07080A;
