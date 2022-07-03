@@ -406,7 +406,7 @@ padding-top: 10px;
 #portfolio {
   padding: 100px 0;
   background: #FFFFFF;
-  background: url('../images/img4.jpg');
+  background: white/*url('../images/img4.jpg');*/
   background-size: cover;
 }
 #portfolio .portfolio-filter {
@@ -703,7 +703,7 @@ color:#fff;
   margin: 0;
 }
 #our-team .team-member .team-info { 
-  background: #222222;
+  background: white;
   color: #BBBBBB;
   padding: 7px 0;
   border-top: 2px solid #fff;
